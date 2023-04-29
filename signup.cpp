@@ -39,19 +39,21 @@ void Signup::add_user(void)
             if(!fileData.compare(user))
             {
                 ui->lineEdit->clear();
+                ui->lineEdit_2->clear();
+                ui->lineEdit_3->clear();
                 QMessageBox msgBox;
                 msgBox.setText("The user name is already used. Please choose another one.");
                 msgBox.exec();
-                break;
+                return;
             }
         }
         in.close();
-        return;
     }
 
     if (pwd==pwd_confirm && pwd.length()==6) {}
     else
     {
+        ui->lineEdit->clear();
         ui->lineEdit_2->clear();
         ui->lineEdit_3->clear();
         QMessageBox msgBox;

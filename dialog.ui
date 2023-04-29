@@ -131,9 +131,26 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>quit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>346</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>login_in()</slot>
   <slot>sign_up()</slot>
+  <slot>quit()</slot>
  </slots>
 </ui>

@@ -63,3 +63,8 @@ void Dialog::sign_up()
     Signup *usign = new Signup;
     usign->show();
 }
+
+void Dialog::quit()
+{
+    this->close();
+}

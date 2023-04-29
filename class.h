@@ -36,7 +36,6 @@ struct task//任务类
 
 struct key//因为任务id具有唯一性，故将这个属性作为任务在map中存储的键值
 {
-
     string task_id;//任务id
 
     bool operator < (const key &key1) const

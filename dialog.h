@@ -18,7 +18,7 @@ public:
 public slots:
     void login_in(void);
     void sign_up(void);
-
+    void quit(void);
 private:
     Ui::Dialog *ui;
 };

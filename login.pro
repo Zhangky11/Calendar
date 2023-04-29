@@ -28,15 +28,18 @@ SOURCES += \
         dialog.cpp \
     user.cpp \
     signup.cpp \
-    get_hash.cpp
+    get_hash.cpp \
+    add_task.cpp
 
 HEADERS += \
         dialog.h \
     user.h \
     signup.h \
-    class.h
+    class.h \
+    add_task.h
 
 FORMS += \
         dialog.ui \
     user.ui \
-    signup.ui
+    signup.ui \
+    add_task.ui
